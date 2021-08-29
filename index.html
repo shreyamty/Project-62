@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <h3>
+            <div style="position:sticky;top:0;z-index:99999; background-color:black;">
+
+                <div class="menu1" id="myNavbar1">
+                    <span><a href="#home">Home</a></span>&nbsp;
+                    <span><a href="#Grids">Grid view</a></span>&nbsp;
+                    <span><a href="#slides">Slide view</a></span>&nbsp;
+                </div>
+            </div>
+        </h3>
+    </center>
+
+
+    <div class="container">
+
+        <section id="home">
+            <br>
+            <script src=""></script>
+            <div class="row">
+                <img class="img1" src="flowers.gif" </div>
+            </div>
+            <div class="line"></div>
+        </section>
+
+
+
+
+        <hr style="width: 100%;">
+        <section id="Grids">
+            <h2> Grid gallery</h2>
+            <br>
+            <script src=""></script>
+            <div class="row">
+                <img class="img2" src="Pink%20tulip.jpg">
+                <img class="img2" src="purple.jpg">
+                <img class="img2" src="blue.jpg">
+                <img class="img2" src="Orange.png">
+                <br><br>
+            </div>
+            <div class="row">
+                <img class="img2" src="yellow.jpg">
+                <img class="img2" src="violet.jpg">
+                <img class="img2" src="Red%20rose.jpg">
+                <img class="img2" src="White.jpg">
+            </div>
+
+        </section>
+
+        <br>
+        <br>
+        <hr style="width: 100%;">
+
+
+
+        <!-- Left and right controls -->
+        <section id="slides">
+            <h2>Sliding Gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item">
+                        <img class="img-responsive" src="bluebonnets.jpeg" alt="Scarlet" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Bluebonnets</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <img class="img-responsive" src="White.jpg" alt="Captain America" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>White Vanilla flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="img-responsive" src="chrysanthemum.jpeg" alt="Black Panther" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Chrysanthemum</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="img-responsive" src="marigold.jpeg" alt="Hulk" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Marigold</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="redrose2.png" alt="Ironman" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Red Rose</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="waterlily.jpeg" alt="Thanos" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Water Lily</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="hibiscus.jpeg" alt="Thor" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Hibiscus</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="cherry blossom.jpeg" alt="Gamora" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Cherry Blossom</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <img class="img-responsive" src="White.jpg" alt="Captain America" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>White Vanilla flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+</body>
+
+</html>
